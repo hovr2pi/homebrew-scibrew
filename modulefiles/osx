@@ -1,0 +1,17 @@
+#%Module1.0#####################################################################
+#
+#############################################################################
+
+proc ModulesHelp { } {
+puts stderr "This modulefile defines the default paths and environment"
+puts stderr "variables needed to use the local software and utilities"
+puts stderr "on this system."
+}
+
+set sys        [uname sysname]
+set os         [uname release]
+set mach       [uname machine]
+set node       [uname node]
+
+setenv          STTY_ARGS   sane
+setenv          SYSTEM      Darwin
