@@ -19,5 +19,5 @@ and then we need to have modules set up when we login
 
 ```bash
 $ echo "source /usr/local/Cellar/lmod/5.2/lmod/5.2/init/bash" >> ~/.bashrc
-$ echo "export MODULEPATH=/usr/opt/modulefiles" >> ~/.bashrc"
+$ echo "export MODULEPATH=/usr/opt/modulefiles" >> ~/.bashrc
 ```
