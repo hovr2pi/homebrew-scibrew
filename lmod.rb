@@ -13,8 +13,8 @@ class Lmod < Formula
                           "--disable-dependency-tracking",
                           "--disable-silent-rules",
 			  "--with-module-root-path=/usr/local/modulefiles",
-			  "--with-spiderCacheDir=/usr/opt/moduleData/cacheDir",
-			  "--with-updateSystemfile=/usr/opt/moduleData/system.txt",
+			  "--with-spiderCacheDir=/usr/local/opt/moduleData/cacheDir",
+			  "--with-updateSystemfile=/usr/local/opt/moduleData/system.txt",
                           "--prefix=#{prefix}"
     system "make"
     system "make install"
